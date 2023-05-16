@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    /* Custom styles for this template */
+    body {
+      padding-top: 5rem;
+    }
+    .form-login {
+      max-width: 330px;
+      padding: 15px;
+      margin: 0 auto;
+    }
+    .form-login .form-control {
+      position: relative;
+      box-sizing: border-box;
+      height: auto;
+      padding: 10px;
+      font-size: 16px;
+    }
+    .form-login input[type="text"],
+    .form-login input[type="password"] {
+      margin-bottom: 10px;
+    }
+    .form-login .btn {
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px;
+      background-color: #4CAF50;
+      border: none;
+      margin-top: 20px;
+    }
+    .form-login .btn:hover {
+      background-color: #2E8B57;
+    }
+  </style>
+</head>
+<body>
+
+<main role="main" class="container">
+
+  <form class="form-login">
+    <h1 class="h3 mb-3 font-weight-normal">Please Login</h1>
+    <label for="inputUsername" class="sr-only">Username</label>
+    <input type="text" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+  </form>
+
+</main>
+
+</body>
+</html>
